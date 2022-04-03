@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strForm"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strNombre"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/valueNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/strIngresarNombre"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strEdad"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/valueEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/IngresarEdad"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strCorreo"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/valueCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/strIngresarCorreo"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnMostrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/strMostrar"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnCapturar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strCaptura"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/setNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/setEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/setCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

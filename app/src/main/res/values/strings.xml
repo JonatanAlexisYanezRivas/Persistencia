@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Persistencia</string>
+    <string name="strNombre">Nombre</string>
+    <string name="strEdad">Edad</string>
+    <string name="strCorreo">Correo</string>
+    <string name="strCaptura">Capturar</string>
+    <string name="strMostrar">Mostrar</string>
+    <string name="strIngresarNombre">Ingresar nombre</string>
+    <string name="strIngresarEdad">Ingresar edad </string>
+    <string name="IngresarEdad">Ingresa edad</string>
+    <string name="strIngresarCorreo">Ingresar correo</string>
+    <string name="textview">TextView</string>
+    <string name="strForm">Formulario</string>
+</resources>

@@ -1,0 +1,33 @@
+package com.example.persistencia;
+
+import androidx.lifecycle.ViewModel;
+
+public class Datos extends ViewModel {
+
+    String nombre, correo;
+    int edad;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+}
